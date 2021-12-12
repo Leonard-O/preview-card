@@ -1,10 +1,16 @@
 .attribution {
     font-size: 11px;
     text-align: center;
+    background-color: hsl(215, 32%, 27%);
+    color: aliceblue;
+    width: 340px;
+    margin: auto;
+    padding: 20px 0;
+    border-radius: 10px;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(178, 100%, 50%);
 }
 
 * {
@@ -15,10 +21,9 @@
 
 .container {
     background-color: hsl(217, 54%, 11%);
-    padding-top: 20px;
+    padding-top: 50px;
     width: 375px;
     margin: auto;
-    border-radius: 5px;
     padding-bottom: 50px;
     /* width: 1440px; */
 }
@@ -160,7 +165,7 @@ footer {
 
 footer>img {
     width: 40px;
-    border: 2px solid hsl(0, 0%, 100%);
+    border: 2px solid hsl(178, 100%, 50%);
     border-radius: 50px;
 }
 

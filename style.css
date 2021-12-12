@@ -1,0 +1,88 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: hsl(217, 54%, 11%); */
+}
+
+.container {
+    background-color: hsl(217, 54%, 11%);
+    padding-top: 20px;
+    width: 375px;
+    margin: auto;
+    border-radius: 5px;
+    /* width: 1440px; */
+}
+
+.main {
+    background-color: hsl(215, 32%, 27%);
+    border-radius: 10px;
+    padding-top: 20px;
+    width: 340px;
+    margin: auto;
+}
+
+.img-1>img {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+.description {
+    padding-top: 20px;
+    width: 300px;
+    margin: auto;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+.description>p {
+    color: hsl(215, 51%, 70%);
+    padding-top: 20px;
+    padding-right: 10px;
+    line-height: 30px;
+    Font-size: 18px
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 300px;
+    margin: auto;
+}
+
+.value {
+    display: flex;
+    color: hsl(178, 100%, 50%);
+}
+
+.value>p {
+    padding-left: 10px;
+}
+
+.time {
+    display: flex;
+    color: hsl(215, 51%, 70%);
+}
+
+.time>p {
+    padding-left: 10px;
+}
+
+br {
+    color: white;
+    padding-bottom: 20px;
+}

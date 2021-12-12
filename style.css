@@ -19,6 +19,7 @@
     width: 375px;
     margin: auto;
     border-radius: 5px;
+    padding-bottom: 50px;
     /* width: 1440px; */
 }
 
@@ -33,10 +34,67 @@
 .img-1>img {
     display: flex;
     justify-content: center;
+    cursor: pointer;
     border-radius: 10px;
     width: 300px;
     margin: auto;
 }
+
+.img-1 {
+    position: relative;
+    width: 300px;
+    margin: auto;
+}
+
+.bg {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background: hsl(178, 100%, 50%);
+    position: absolute;
+    margin-left: 0.5px;
+    top: 0.5px;
+    opacity: 0;
+}
+
+.pic {
+    position: absolute;
+    margin-left: 125px;
+    top: 125px;
+    width: 50px;
+    height: 50px;
+    background: url(images/icon-view.svg) no-repeat;
+    opacity: 0;
+}
+
+.img-1:hover .pic {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.img-1:hover .bg {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+/*
+.img-1:hover {
+    cursor: pointer;
+    background-image: url(images/icon-view.svg);
+    background-repeat: no-repeat;
+    z-index: 1000;
+}
+
+.pic {
+    width: 40px;
+    height: 40px;
+    background: url(mages/icon-view.svg);
+}
+
+.pic:hover {
+    opacity: 0.6;
+} */
 
 .description {
     padding-top: 20px;
@@ -44,8 +102,13 @@
     margin: auto;
 }
 
-h2 {
+.description>h2 {
     color: hsl(0, 0%, 100%);
+}
+
+.description>h2:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
 }
 
 .description>p {
@@ -82,7 +145,35 @@ h2 {
     padding-left: 10px;
 }
 
-br {
-    color: white;
+hr {
+    color: hsl(215, 51%, 70%);
+    width: 300px;
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    margin: 20px;
     padding-bottom: 20px;
+}
+
+footer>img {
+    width: 40px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50px;
+}
+
+footer>p {
+    padding-left: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+}
+
+span:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
 }
